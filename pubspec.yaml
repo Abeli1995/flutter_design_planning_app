@@ -1,0 +1,83 @@
+name: flutter_design_planning_app
+description: "flutter app for design room planning"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.1.0
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  fonts:
+    - family: JosefinSans
+      fonts:
+        - asset: assets/fonts/JosefinSans.ttf
+        - asset: assets/fonts/JosefinSans-Italic.ttf
+
+
+    - family: Montserrat-Medium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/first_onboarding_screen.png
+    - assets/images/second_onboarding_screen.png
+    - assets/images/third_onboarding_screen.png
+    - assets/images/home_image_first.png
+    - assets/images/home_image_second.png
+    - assets/images/home_image_third.png
+    - assets/images/home_image_fourth.png
+    - assets/images/home_image_fifth.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
